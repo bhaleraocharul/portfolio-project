@@ -29,6 +29,37 @@
   </head>
 
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="charul logo"
+          />
+          <img
+            src="/images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="charul logo small"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Charul">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Charul's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Charul">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -41,13 +72,82 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#" class="btn-branding">See my projects</a>
+            <a href="/work.html" class="btn-branding">See my projects</a>
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="/images/charul.jpg" class="img-fluid rounded" />
+        <div class="col-lg-6 mb-5">
+          <img src="/images/charul.jpg" class="charul-img img-fluid" />
         </div>
       </div>
+      
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Charul"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            href="mailto:bhaleraocharul@gmail.com"
+            class="email-link"
+            title="Email Charul"
+            >bhaleraocharul@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-4">
+          <a href="mailto:bhaleraocharul@gmail.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/charul-bhalerao/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://github.com/bhaleraocharul"
+            target="_blank"
+            title="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center">
+          This project was coded by
+          <a
+            class="footer-links"
+            href="https://www.linkedin.com/in/charul-bhalerao/"
+            target="_blank"
+          >
+            Charul Bhalerao</a
+          >, is
+          <a
+            class="footer-links"
+            href="https://github.com/bhaleraocharul/world-clock"
+            target="_blank"
+          >
+            open-sourced on Github</a
+          >
+          and hosted on
+          <a
+            class="footer-links"
+            href="https://world-clock-cb.netlify.app/"
+            target="_blank"
+            >Netlify</a
+          >
+          💖
+        </p>
+      </footer>
     </div>
   </body>
 </html>

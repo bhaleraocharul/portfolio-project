@@ -25,6 +25,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/style.css" />
+    <meta
+      name="description"
+      content="Charul is a front-end engineer based in Melbourne."
+    />
     <title>Front-end developer - Charul Bhalerao 🇦🇺</title>
   </head>
 
@@ -32,21 +36,29 @@
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-md-block" />
-          <img src="/images/logo-small.jpg" class="logo d-block d-md-none" />
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="charul logo"
+          />
+          <img
+            src="/images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="charul logo small"
+          />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Charul">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Charul's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Charul">Contact</a>
           </li>
         </ul>
       </nav>
@@ -57,7 +69,9 @@
       <h1>Charul Bhalerao</h1>
       <h2 class="mb-5">Front-end developer based in Melbourne 🇦🇺</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Charul"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -77,7 +91,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -92,7 +106,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -117,38 +131,78 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
+
       <footer>
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Charul"
+              >Contact me</a
+            >
           </div>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:bhaleraocharul@gmail.com" class="email-link"
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            href="mailto:bhaleraocharul@gmail.com"
+            class="email-link"
+            title="Email Charul"
             >bhaleraocharul@gmail.com</a
           >
         </div>
-        <div class="social-links d-flex justify-content-center mb-5">
+        <div class="social-links d-flex justify-content-center mb-4">
           <a href="mailto:bhaleraocharul@gmail.com"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="https://www.linkedin.com/in/charul-bhalerao/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/charul-bhalerao/"
+            target="_blank"
+            title="LinkedIn"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
-          <a href="https://github.com/bhaleraocharul" target="_blank"
+          <a
+            href="https://github.com/bhaleraocharul"
+            target="_blank"
+            title="GitHub"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center">
+          This project was coded by
+          <a
+            class="footer-links"
+            href="https://www.linkedin.com/in/charul-bhalerao/"
+            target="_blank"
+          >
+            Charul Bhalerao</a
+          >, is
+          <a
+            class="footer-links"
+            href="https://github.com/bhaleraocharul/world-clock"
+            target="_blank"
+          >
+            open-sourced on Github</a
+          >
+          and hosted on
+          <a
+            class="footer-links"
+            href="https://world-clock-cb.netlify.app/"
+            target="_blank"
+            >Netlify</a
+          >
+          💖
+        </p>
       </footer>
     </div>
   </body>
