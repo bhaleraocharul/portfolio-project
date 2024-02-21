@@ -3,7 +3,7 @@ font-family: "Poppins", sans-serif; */
 
 /*
 bg: #ebeae5 or #e2f2ef
-btn: #69c096; or #68c196
+btn: #69c096; or #68c196 #885df1;
 */
 
 :root {
@@ -67,7 +67,7 @@ h3 {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 
 .content {
@@ -103,6 +103,11 @@ h3 {
   padding: 15px 30px;
   text-decoration: none;
   margin-top: 10px;
+}
+
+.btn-branding:hover {
+  border-color: var(--branding-color);
+  background-color: whitesmoke;
 }
 
 .btn-branding-outline {
@@ -149,6 +154,11 @@ nav li.active a {
   transition: all 100ms ease-in-out;
 }
 
+hr {
+  color: var(--branding-color);
+  margin: 0;
+}
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -193,6 +203,38 @@ footer .contact-box p {
 .charul-img {
   border-radius: 50%;
   margin-bottom: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.charul-img:hover {
+  transform: scale(1.1);
+}
+
+.btn-send {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+}
+
+.btn-send:hover {
+  border-color: var(--branding-color);
+  background-color: whitesmoke;
+}
+
+.btn-branding-outline:hover {
+  border-color: black;
+}
+
+.project-preview-img {
+  border-radius: 15px;
+}
+
+.work-page-pic {
+  transition: all 150ms ease-in-out;
+}
+
+.work-page-pic:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
