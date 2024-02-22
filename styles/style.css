@@ -201,6 +201,7 @@ nav li.active a {
   top: 0;
   background-color: white;
   border-bottom: solid var(--branding-color);
+  z-index: 1;
 }
 
 hr {
@@ -300,10 +301,12 @@ footer .contact-box p {
 
 .card-thumbnail-sm {
   min-width: 100%;
+  min-height: 100%;
 }
 
 .card-thumbnail-sm-opposite {
   min-width: 100%;
+  min-height: 100%;
 }
 
 .card-thumbnail {
