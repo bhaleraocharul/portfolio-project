@@ -325,6 +325,11 @@ footer .contact-box p {
   border-radius: 24px;
 }
 
+.bg-text-color {
+  text-decoration: none;
+  color: #62c495;
+}
+
 img,
 svg {
   vertical-align: middle;
